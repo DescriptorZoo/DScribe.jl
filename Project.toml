@@ -1,0 +1,12 @@
+name = "DScribe"
+uuid = "fc698248-5163-421b-9ee2-8b62db393dc1"
+authors = ["onatberk "]
+version = "0.1.0"
+
+[deps]
+ASE = "51974c44-a7ed-5088-b8be-3e78c8ba416c"
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+JuLIP = "945c410c-986d-556a-acb1-167a618e0462"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
