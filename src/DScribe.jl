@@ -137,7 +137,7 @@ dscribe_acsf(at, cutoff; kwargs...) = dscribe_acsf(at; cutoff=cutoff, kwargs...)
 function dscribe_soap(at, cutoff; n_max=1, l_max=1, sigma=0.5, 
                       rbf="gto", species=nothing, 
                       periodic=true, crossover=true, 
-                      average=false, sparse=false)
+                      average="off", sparse=false)
 
 if species == nothing
     species = unique(collect(at.Z))
