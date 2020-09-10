@@ -12,6 +12,7 @@ soap_now = vcat(desc[1,:]...)
 println("DScribe.jl SOAP:",soap_now)
 println("Reference:",soap_ref)
 #println(@test soap_now  ≈  soap_ref)
-println(@test soap_now - soap_ref ≈ 0)
+println(@test soap_now .- soap_ref .≈ 0.0)
+
 
 end
