@@ -13,7 +13,6 @@ println("DScribe.jl SOAP:",soap_now)
 println("Reference:",soap_ref)
 #println(@test soap_now  ≈  soap_ref)
 tst = [isapprox(soap_now[x], soap_ref[x]; atol=0.00001) for x=1:length(soap_ref)]
-println(@test all(x->x==true, tst))
-
+println(@test all(tst))
 
 end
