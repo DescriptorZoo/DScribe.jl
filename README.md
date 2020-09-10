@@ -14,7 +14,7 @@ This package includes a simple code that demonstrates how to access DScribe desc
 
 ## Installation:
 
-First, install DScribe following the code's [installation document](https://singroup.github.io/dscribe/latest/install.html) at [ttps://singroup.github.io/dscribe/](https://singroup.github.io/dscribe/) and [github repo](https://github.com/SINGROUP/dscribe)
+First, install DScribe following the code's [installation document](https://singroup.github.io/dscribe/latest/install.html) at [https://singroup.github.io/dscribe/](https://singroup.github.io/dscribe/) of [DScribe](https://github.com/SINGROUP/dscribe)
 
 Once you have installed the Python package that is used by your Julia installation, you can simply add this package to your Julia environment with the following command in Julia package manager and test whether the code producesdescriptors for test system of Si:
 ```
