@@ -19,7 +19,7 @@ First, install DScribe following the code's [installation document](https://sing
 Once you have installed the Python package that is used by your Julia installation, you can simply add this package to your Julia environment with the following command in Julia package manager and test whether the code producesdescriptors for test system of Si:
 ```
 ] add https://github.com/DescriptorZoo/DScribe.jl.git
-] test SOAPlite
+] test DScribe
 ```
 
 ## How to cite:
